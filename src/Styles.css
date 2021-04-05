@@ -24,7 +24,7 @@ a:hover {
 } */
 
 .app__container {
-  margin: 30px;
+  margin: 30px auto;
 }
 
 .app__row {
