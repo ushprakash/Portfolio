@@ -25,6 +25,7 @@ a:hover {
 
 .app__container {
   margin: 30px;
+  margin-left: 40px;
 }
 
 .app__row {
@@ -81,6 +82,7 @@ a:hover {
   background-color: #dbdddf;
   border-radius: 30px;
   margin: 45px 10px;
+  font-weight: 600;
 }
 
 .sidebar__contact {
@@ -91,23 +93,25 @@ a:hover {
 }
 
 .sidebar__location {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
   height: 80px;
 }
 
 .sidebar__location p {
   font-size: 1.25rem;
+  margin-top: 3px;
 }
 .sidebar__email {
   background-image: linear-gradient(to right bottom, #09aa49, #0575e6);
-  width: 180px;
+  width: 160px;
   border-radius: 30px;
   color: #fff;
   margin: 25px 25px 0px;
   cursor: pointer;
   transition: all 0.5s ease;
   margin: auto;
+  font-size: 1.25rem;
 }
 
 .sidebar__email:hover {
@@ -222,8 +226,8 @@ a:hover {
 
 .resume-card__heading {
   margin-left: 5px;
-  font-size: 30px;
-  font-weight: 350;
+  font-size: 28px;
+  font-weight: 450;
   color: #09aa49;
   margin-top: 20px;
   margin-right: 20px;
@@ -231,8 +235,8 @@ a:hover {
 
 .resume-language__heading {
   margin-left: 20px;
-  font-size: 30px;
-  font-weight: 350;
+  font-size: 28px;
+  font-weight: 450;
   color: #09aa49;
   margin-top: 20px;
 }
