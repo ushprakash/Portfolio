@@ -25,12 +25,10 @@ a:hover {
 
 .app__container {
   margin: 30px;
-  margin-left: 40px;
 }
 
 .app__row {
   height: 80vh;
-  margin: auto;
 }
 
 .app__main-content {

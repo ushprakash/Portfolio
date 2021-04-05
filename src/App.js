@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <div className="container app__container">
+        <center className="container app__container">
           <div className="row app__row">
             <div className="col-lg-4">
 
@@ -39,7 +39,7 @@ function App() {
               </Switch>
             </div>
           </div>
-        </div>
+        </center>
       </div>
     </Router>
   );
