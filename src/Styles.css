@@ -30,6 +30,7 @@ a:hover {
 
 .app__row {
   height: 80vh;
+  margin: auto;
 }
 
 .app__main-content {
