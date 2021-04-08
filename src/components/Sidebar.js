@@ -1,11 +1,6 @@
 import React from 'react'
-//import facebook from '../assets/icons/facebook.svg'
-//import instagram from '../assets/icons/instagram.svg'
-import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
-//import tie from '../assets/icons/tie.svg'
 import Usha from '../assets/Usha.jpg'
-//import resume from '../assets/resume.pdf'
 
 const Sidebar = () => {
     const handleEmailMe = () => {

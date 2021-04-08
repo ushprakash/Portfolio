@@ -26,7 +26,7 @@ function App() {
               {/* navbar */}
               <Navbar />
               <Switch>
-                <Route exact path="/about">
+                <Route exact path="/">
                   <About />
                 </Route>
                 <Route path="/resume">
@@ -34,7 +34,7 @@ function App() {
                 </Route>
                 <Route path="/projects" component={Projects} />
                 <Route>
-                  <Redirect to="/about" />
+                  <Redirect to="/" />
                 </Route>
               </Switch>
             </div>
