@@ -26,15 +26,15 @@ function App() {
               {/* navbar */}
               <Navbar />
               <Switch>
-                <Route exact path="Portfolio/about">
+                <Route exact path="/about">
                   <About />
                 </Route>
-                <Route path="Portfolio/resume">
+                <Route path="/resume">
                   <Resume />
                 </Route>
-                <Route path="Portfolio/projects" component={Projects} />
+                <Route path="/projects" component={Projects} />
                 <Route>
-                  <Redirect to="Portfolio/about" />
+                  <Redirect to="/about" />
                 </Route>
               </Switch>
             </div>
