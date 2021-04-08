@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="navbar__items">
                 {active !== 'About' &&
-                    <Link to="/">
+                    <Link to="/about">
                         <div className="navbar__item" onClick={() => setActive('About')}>About</div>
                     </Link>
                 }
